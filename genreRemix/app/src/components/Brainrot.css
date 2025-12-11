@@ -1,0 +1,23 @@
+.brainrot-page {
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px; /* keeps it clear of navbar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.brainrot-image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brainrot-img {
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
