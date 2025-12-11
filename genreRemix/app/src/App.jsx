@@ -14,7 +14,7 @@ import Brainrot from './components/Brainrot';
 function App() {
 
   return (
-    <Router>
+    <>
       <NavBar />
       <Routes>
         <Route path = "/" element = {
@@ -28,7 +28,7 @@ function App() {
         <Route path = "/about" element = {<About />} />
         <Route path="/brainrot" element={<Brainrot />} />
       </Routes>
-    </Router>
+    </>
   )
 }
 
